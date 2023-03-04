@@ -1,5 +1,7 @@
 # gen-fake-comics-lib
-A small command-line utility that generates a slew of fake one-page comics for testing comic servers.  Optionally include different kinds of random metadata including locations, characters, credits, etc.
+A small command-line utility that generates a slew of fake one-page comics for testing comic servers.  
+
+Generated comics are sequenced by publisher, series, volume and issue, and all include ComicInfo.xml with basic fields populated. Some type of extra metadata can be optionally generated, such as locations, characters, credits, teams, summaries, story arcs.  Additionally, files may be created all in a single folder, or a structured subfolders based on publisher/series/volume.
 
 ![Sample server screenshot of generated covers](./screenshot.png)
 
