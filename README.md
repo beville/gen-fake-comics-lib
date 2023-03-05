@@ -3,6 +3,8 @@ A small command-line utility that generates a slew of fake one-page comics for t
 
 Generated comics are sequenced by publisher, series, volume and issue, and all include ComicInfo.xml with basic fields populated. Some type of extra metadata can be optionally generated, such as locations, characters, credits, teams, summaries, story arcs.  Additionally, files may be created all in a single folder, or a structured subfolders based on publisher/series/volume.
 
+The generated covers will contain the the basic details of publisher, series, volume, and issue number, as well as a fake publish date that starts with a random year for a given publisher and is incremented by one month for each issue, spanning series and volumes for that publisher.  The color for each volume of a given series will be chosen randomly.
+
 ![Sample server screenshot of generated covers](./screenshot.png)
 
 ## Requirements
